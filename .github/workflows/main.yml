@@ -6,6 +6,6 @@ jobs:
     name: A job to say hello
     steps:
     - name: comment
-      uses: zimagen/hello-world-javascript-action@v1.5
+      uses: zimagen/hello-world-javascript-action@v1.6
       with:
         repoToken: "${{ secrets.GITHUB_TOKEN }}"
