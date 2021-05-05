@@ -8,4 +8,4 @@ jobs:
     - name: comment
       uses: zimagen/hello-world-javascript-action@v1.4
       with:
-        repoToken: ${{ secrets.YOUR_GITHUB_TOKEN }}
+        repoToken: "${{ secrets.GITHUB_TOKEN }}"
